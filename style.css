@@ -7,7 +7,7 @@ body{
 
   
 }
-.bg{
+/* .bg{
   background-image: url(pexels-philippe-donn-1257860.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -18,7 +18,7 @@ body{
   height: 100%;
   width: 100%;
   z-index: -1;
-}
+} */
 /* =============Start TITLE=========== */
 .container{
   min-height: 100vh;
@@ -26,6 +26,16 @@ body{
   justify-content: center;
   align-items: center;
   flex-direction: column;
+    background-image: url(pexels-philippe-donn-1257860.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(0px);
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
 }
 .title{
   text-align: center;

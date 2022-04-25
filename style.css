@@ -4,20 +4,22 @@ body{
   background-color: #4D4C7D;
   /* background: #fff; */
   font-weight: 800;
-
+  
   
 }
 .bg{
-  background-image: url(pexels-philippe-donn-1257860.jp);
+  filter: blur(2px);
+  background-image: url(3449.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  filter: blur(2px);
+  filter: blur(px);
   position: absolute;
   top: 0%;
   left: 0%;
   height: 100%;
   width: 100%;
   z-index: -1;
+
 }
 /* =============Start TITLE=========== */
 .container{
@@ -45,7 +47,8 @@ body{
   animation-timing-function: linear;
   animation-duration: 4s;
   box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, 0.5) ;
-  background-color: #777;
+  background: rgb(0,46,55);
+  background: linear-gradient(90deg, rgba(0,46,55,0) 0%, rgba(7,116,196,1) 53%);
 }
 @keyframes title{
 from{
@@ -81,7 +84,7 @@ from{
   flex-direction: column;
   position: relative;
   box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, 0.5);
-  transition: 0.5s;
+ 
 }
 .c1:hover{
   transform: scale(1.1);
@@ -98,5 +101,20 @@ from{
   background: linear-gradient(90deg, rgba(0,46,55,0) 0%, rgba(4,64,108,1) 53%);
   padding: 20px;
   text-align: center;
+  transition: 0.5s;
+}
+.timeRefSeconds{
+  
+  animation: toga 1s linear infinite;
+}
+@keyframes toga {
+  0%{
+    background: rgb(0,46,55);
+    background: linear-gradient(90deg, rgba(0,46,55,0) 0%, rgba(4,64,108,1) 53%);
+  
+  }
+  100%{
+    background: linear-gradient(90deg, rgba(0,46,55,0) 0%, rgba(7,116,196,1) 53%);
+  }
 }
 /* End Counttttttttttterrrrrrrrrrrrrrrrr */
